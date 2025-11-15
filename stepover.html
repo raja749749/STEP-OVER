@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>STEP-OVER</title>
+
+    
+    <style>
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #000000;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        header {
+            background-color: rgb(28, 3, 71);
+            color: white;
+            padding: 20px 10PX;
+            font-family: 'Trebuchet MS'[];
+            text-align: LEFT;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+
+        header.sticky {
+            background-color: #1a1a1a;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #1d5ef7;
+        }
+
+       
+        .hero {
+            background: url('https://spy.com/wp-content/uploads/2021/07/AdobeStock_158588623.jpeg') no-repeat center center;
+            background-size: cover;
+            color: rgb(247, 247, 252);
+            text-align: center;
+            padding: 380px 20px;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        .hero p {
+            font-size: 20px;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+  
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            animation: slideInFromTop 1s ease-out;
+        }
+
+        @keyframes slideInFromTop {
+            0% { transform: translateY(-30px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .services .service-item {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .services .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+        }
+        
+        .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.30);
+        }
+
+
+        .services .service-item h3 {
+            margin-bottom: 15px;
+            color: #00070c;
+        }
+        
+    .popular-cars {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .popular-cars .car {
+      background-color: #f4efef;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(23, 23, 23);
+      width: 300px;
+      transition: all 0.3s ease-in-out;
+    }
+    .popular-cars .car:hover {
+      transform: translateY(-10px);
+    }
+    .popular-cars img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+    .popular-cars h3 {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+    .popular-cars p {
+      font-size: 1rem;
+      padding: 0 1rem 1rem;
+    }
+
+
+    
+
+       
+
+
+        footer {
+            background-color: #2d2d2d;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #00070b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .services .service-item {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            .gallery img {
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <header id="header">
+        <h1>STEP-OVER</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/ujwal/Desktop/stepover.html">Home</a></li>
+                <li><a href="file:///C:/Users/ujwal/Desktop/STEPOVER2.HTML">PRODUCT</a></li>
+              
+                <li><a href="file:///C:/Users/ujwal/Desktop/STEPOVER3.HTML">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Elevate your style with STEP-OVER</h1>
+        
+    </section>
+
+    <section id="cars" class="section">
+        <h2>TRENDING FOOTWEARS</h2>
+        <div class="popular-cars">
+          <div class="car">
+            <img src="https://shop.teamsg.in/cdn/shop/files/22-07-202401202.jpg?v=1724842455" alt="Car"></a>
+            <h3>SPORTS SHOES</h3>
+            <a href="https://www.khadims.com/sport-shoe?srsltid=AfmBOopmMqr_NlFrFE9cY-a57Sra1TPQF8IXFX6gvwtgYMY-Kz8xF0Gq">BUY NOW</a>
+            </div>
+            <div class="car">
+              <img src="https://teakwoodleathers.com/cdn/shop/files/T_SH_LWE_LU013_BR_1080x.jpg?v=1715672409" alt="Car"></a>
+                <h3>FORMAL SHOES</h3>
+                <a href="https://louisphilippe.abfrl.in/c/men-formal-shoes?srsltid=AfmBOoq6bCT9-bJxMY2q0R4pEhaXKgoFVFdi2_DWnS1RW9LZS2CqVjVK">BUY NOW</a>
+                
+              </div>
+              <div class="car">
+              <img src="https://img.cdnx.in/55036/1654807792814_SKU-14525_0.jpg?width=600&format=webp" alt="Car"></a>
+                <h3>FLIP FLOPS</h3>
+                <a href="https://www.jackjones.in/jj-footwear-flip-flop?srsltid=AfmBOop-1rpszSq4TOY1n-l7qZz_Zi8xdoGW22zrg2GhN85slsFpNaqS">BUY NOW</a>
+                
+               
+              </div>
+             
+              
+          </div>
+          
+        </div>
+      </section>
+    
+
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p> contact us today!</p>
+        <p>Email: <a href="UJWAL THAKUR">ujwalthakur011@gmail.com</a></p>
+        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 STEP-OVER. All Rights Reserved.</p>
+        <p><a href="mailto:info@fitlife.com">Contact Us</a></p>
+    </footer>
+
+
+</body>
+</html>

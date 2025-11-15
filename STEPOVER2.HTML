@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - FitLife</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #020445;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        /* Services Page Styles */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .service-heading {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #3498db;
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 30px;
+            width: 30%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .service-item h3 {
+            font-size: 24px;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+
+        .service-item p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .service-item .price {
+            font-size: 18px;
+            font-weight: 600;
+            color: #e74c3c;
+        }
+
+        .service-item a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .service-item a:hover {
+            background-color: #2980b9;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .service-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-item {
+                width: 80%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Men's Trending Footwears</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/ujwal/Desktop/stepover.html">Home</a></li>
+                <li><a href="file:///C:/Users/ujwal/Desktop/STEPOVER2.HTML">Products</a></li>
+            
+                <li><a href="file:///C:/Users/ujwal/Desktop/STEPOVER3.HTML">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="service-heading">Men's Footwear</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <h3>BOOTS</h3>
+                <img src="https://teakwoodleathers.com/cdn/shop/products/T_SH_5505_BR42_1_530x@2x.jpg?v=1668679064"width='380'>
+                
+                <center><p class="price">1200 Rupees</p>>
+                <a href="https://www.jackjones.in/boots-footwear-jj?srsltid=AfmBOooR2NwjdQJZr6H_PCeFEqd0oGS0jwqavCuH34UmX5DVF_n7a9p1"> Buy Now</a></center>
+            </div>
+
+            <!-- Group Classes -->
+            <div class="service-item">
+                <h3>SNEAKERS</h3>
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/q/y/j/-original-imah23c4s8k75zyp.jpeg?q=90&crop=true"width='380'>
+                
+                <center><p class="price">800 Rupees</p>
+                <a href="https://www.campusshoes.com/collections/mens-sneakers?srsltid=AfmBOoqdP6fS8co14pYQ4NCeUoefsiIvMby83URuzQgxOxuGoqDpqDXM">Buy Now</a></center>
+            </div>
+
+            <!-- Nutrition Counseling -->
+            <div class="service-item">
+                <h3>HIKING BOOTS</h3>
+                <img src="https://s.alicdn.com/@sc04/kf/H32a0ae5f682640059dceb260b80e7d21f.jpg_720x720q50.jpg"width='380'length='400'>
+                
+               <CENTER> <p class="price">1500 Rupees</p>
+                <a href="https://wildcraft.com/footwear/men-shoes/hiking-trekking-shoes?page=1">Buy Now</a></CENTER>
+            </div>
+
+            <!-- Personal Training -->
+            <div class="service-item">
+                <h3>FORMAL SHOES</h3>
+                <img src="https://teakwoodleathers.com/cdn/shop/files/T_SH_LWE_LU013_BR_1080x.jpg?v=1715672409"width='380',length='150'>
+                
+                <CENTER><p class="price">1000 Rupees</p>
+                <a href="https://louisphilippe.abfrl.in/c/men-formal-shoes?srsltid=AfmBOoq6bCT9-bJxMY2q0R4pEhaXKgoFVFdi2_DWnS1RW9LZS2CqVjVK">Buy Now</a></CENTER>
+            </div>
+
+            <!-- Group Classes -->
+            <div class="service-item">
+                <h3>FLIP FLOPS</h3>
+                <img src="https://img.cdnx.in/55036/1654807792814_SKU-14525_0.jpg?width=600&format=webp"width='380'>
+                
+                <CENTER><p class="price">400 Rupees</p>
+                <a href="https://www.jackjones.in/jj-footwear-flip-flop?srsltid=AfmBOop-1rpszSq4TOY1n-l7qZz_Zi8xdoGW22zrg2GhN85slsFpNaqS">Buy Now</a></CENTER>
+            </div>0 
+
+            <!-- Nutrition Counseling -->
+            <div class="service-item">
+                <h3>SPORTS SHOES</h3>
+                <img src="https://shop.teamsg.in/cdn/shop/files/22-07-202401202.jpg?v=1724842455"width='380'length='400'>
+                
+                <CENTER><p class="price">1200 Rupees</p>
+                <a href="https://www.khadims.com/sport-shoe?srsltid=AfmBOopmMqr_NlFrFE9cY-a57Sra1TPQF8IXFX6gvwtgYMY-Kz8xF0Gq">Buy Now</a></CENTER>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 STEP-OVER. All Rights Reserved.</p>
+        <p><a href="mailto:info@fitlife.com">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>
